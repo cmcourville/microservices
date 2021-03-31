@@ -1,0 +1,58 @@
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\appsettings.json
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.exe
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.deps.json
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.runtimeconfig.json
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.runtimeconfig.dev.json
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.dll
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\ref\backend.dll
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\backend.pdb
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Development\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.csprojAssemblyReference.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.AssemblyInfoInputs.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.AssemblyInfo.cs
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.csproj.CoreCompileInputs.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\staticwebassets\backend.StaticWebAssets.Manifest.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\staticwebassets\backend.StaticWebAssets.xml
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\scopedcss\bundle\backend.styles.css
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.RazorTargetAssemblyInfo.cache
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.csproj.CopyComplete
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.dll
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\ref\backend.dll
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.pdb
+C:\Development\myweatherapp\backend\obj\Debug\net5.0\backend.genruntimeconfig.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\appsettings.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.exe
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.deps.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.runtimeconfig.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.runtimeconfig.dev.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\ref\backend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\backend.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.csprojAssemblyReference.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.AssemblyInfoInputs.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.AssemblyInfo.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\staticwebassets\backend.StaticWebAssets.Manifest.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\staticwebassets\backend.StaticWebAssets.xml
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\scopedcss\bundle\backend.styles.css
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.RazorTargetAssemblyInfo.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.csproj.CopyComplete
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\ref\backend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\backend\obj\Debug\net5.0\backend.genruntimeconfig.cache

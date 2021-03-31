@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "MmpD/+/Izdz9iwejQZ0aFNrjWLEaKj/d4xdgXTQEPup1WgIHXpPXYPgRhYn11dYr7W12QizIqcfR3TBC22g3OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cor02235\\OneDrive - The TJX Companies, Inc\\Sierra Digital Team\\microservices\\myweatherapp\\frontend\\frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.configuration.keyperfile\\3.1.3\\microsoft.extensions.configuration.keyperfile.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.3\\microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.3\\microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.3\\microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\cor02235\\.nuget\\packages\\microsoft.tye.extensions.configuration\\0.2.0-alpha.20258.3\\microsoft.tye.extensions.configuration.0.2.0-alpha.20258.3.nupkg.sha512"
+  ],
+  "logs": []
+}

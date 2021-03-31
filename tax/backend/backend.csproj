@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>1c53dcb5-ac1c-4db8-9317-dd2e6de91ffd</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.7.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.7.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.7.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.7.*" />
+  </ItemGroup>
+</Project>

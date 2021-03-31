@@ -1,0 +1,82 @@
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\appsettings.Development.json
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\appsettings.json
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.exe
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.deps.json
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.runtimeconfig.json
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.runtimeconfig.dev.json
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.dll
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\ref\frontend.dll
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.pdb
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.Views.dll
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\frontend.Views.pdb
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.csprojAssemblyReference.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.AssemblyInfoInputs.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.AssemblyInfo.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.csproj.CoreCompileInputs.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorAssemblyInfo.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorAssemblyInfo.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\staticwebassets\frontend.StaticWebAssets.Manifest.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\staticwebassets\frontend.StaticWebAssets.xml
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\scopedcss\bundle\frontend.styles.css
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.TagHelpers.input.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.TagHelpers.output.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorCoreGenerate.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorTargetAssemblyInfo.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorTargetAssemblyInfo.cs
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.Views.pdb
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.dll
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\ref\frontend.dll
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.pdb
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.genruntimeconfig.cache
+C:\Development\myweatherapp\frontend\obj\Debug\net5.0\frontend.csproj.CopyComplete
+C:\Development\myweatherapp\frontend\bin\Debug\net5.0\Microsoft.Tye.Extensions.Configuration.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\appsettings.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.exe
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.deps.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.runtimeconfig.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.runtimeconfig.dev.json
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\ref\frontend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.Views.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\frontend.Views.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\bin\Debug\net5.0\Microsoft.Tye.Extensions.Configuration.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.csprojAssemblyReference.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.AssemblyInfoInputs.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.AssemblyInfo.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.csproj.CoreCompileInputs.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorAssemblyInfo.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorAssemblyInfo.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\staticwebassets\frontend.StaticWebAssets.Manifest.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\staticwebassets\frontend.StaticWebAssets.xml
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\scopedcss\bundle\frontend.styles.css
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.TagHelpers.input.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.TagHelpers.output.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorCoreGenerate.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorTargetAssemblyInfo.cache
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.RazorTargetAssemblyInfo.cs
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.Views.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.csproj.CopyComplete
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\ref\frontend.dll
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.pdb
+C:\Users\cor02235\OneDrive - The TJX Companies, Inc\Sierra Digital Team\microservices\myweatherapp\frontend\obj\Debug\net5.0\frontend.genruntimeconfig.cache

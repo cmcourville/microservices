@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "gYqXfRXYdfxb+rPw5LKAacDntZUyWQYe4UTBkShthGQ6eXsTRhQIaQcD6zvUOY0xj6FbyPdaZHg1x9PAxtA+Hw==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\microservices\\tax\\frontend\\frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.configuration.keyperfile\\3.1.3\\microsoft.extensions.configuration.keyperfile.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.3\\microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.3\\microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.3\\microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\bjones\\.nuget\\packages\\microsoft.tye.extensions.configuration\\0.2.0-alpha.20258.3\\microsoft.tye.extensions.configuration.0.2.0-alpha.20258.3.nupkg.sha512"
+  ],
+  "logs": []
+}

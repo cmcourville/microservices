@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TaxService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_ITaxService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetNamedPipeBinding_ITaxService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITaxService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITaxService1_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <http:NegotiateAuthentication xmlns:http="http://schemas.microsoft.com/ws/06/2004/policy/http" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Stp.TaxEngine.Contract" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITaxService_CalculateTax_InputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateTax" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_CalculateTax_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateTaxResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_CommitTaxCalculation_InputMessage">
+    <wsdl:part name="parameters" element="tns:CommitTaxCalculation" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_CommitTaxCalculation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CommitTaxCalculationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_ReleaseResources_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReleaseResources" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_ReleaseResources_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReleaseResourcesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_RefreshSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITaxService_RefreshSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshSettingsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITaxService">
+    <wsdl:operation name="CalculateTax">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxService/CalculateTax" message="tns:ITaxService_CalculateTax_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxService/CalculateTaxResponse" message="tns:ITaxService_CalculateTax_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitTaxCalculation">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxService/CommitTaxCalculation" message="tns:ITaxService_CommitTaxCalculation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxService/CommitTaxCalculationResponse" message="tns:ITaxService_CommitTaxCalculation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseResources">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxService/ReleaseResources" message="tns:ITaxService_ReleaseResources_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxService/ReleaseResourcesResponse" message="tns:ITaxService_ReleaseResources_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefreshSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxService/RefreshSettings" message="tns:ITaxService_RefreshSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxService/RefreshSettingsResponse" message="tns:ITaxService_RefreshSettings_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_ITaxService" type="tns:ITaxService">
+    <wsp:PolicyReference URI="#NetTcpBinding_ITaxService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="CalculateTax">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CalculateTax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitTaxCalculation">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CommitTaxCalculation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseResources">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/ReleaseResources" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/RefreshSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetNamedPipeBinding_ITaxService" type="tns:ITaxService">
+    <wsp:PolicyReference URI="#NetNamedPipeBinding_ITaxService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/named-pipe" />
+    <wsdl:operation name="CalculateTax">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CalculateTax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitTaxCalculation">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CommitTaxCalculation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseResources">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/ReleaseResources" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/RefreshSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSHttpBinding_ITaxService" type="tns:ITaxService">
+    <wsp:PolicyReference URI="#WSHttpBinding_ITaxService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateTax">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CalculateTax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitTaxCalculation">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CommitTaxCalculation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseResources">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/ReleaseResources" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/RefreshSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSHttpBinding_ITaxService1" type="tns:ITaxService">
+    <wsp:PolicyReference URI="#WSHttpBinding_ITaxService1_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateTax">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CalculateTax" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitTaxCalculation">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/CommitTaxCalculation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReleaseResources">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/ReleaseResources" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITaxService/RefreshSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TaxService">
+    <wsdl:port name="NetTcpBinding_ITaxService" binding="tns:NetTcpBinding_ITaxService">
+      <soap12:address location="net.tcp://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="NetNamedPipeBinding_ITaxService" binding="tns:NetNamedPipeBinding_ITaxService">
+      <soap12:address location="net.pipe://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.pipe://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="WSHttpBinding_ITaxService" binding="tns:WSHttpBinding_ITaxService">
+      <soap12:address location="http://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="WSHttpBinding_ITaxService1" binding="tns:WSHttpBinding_ITaxService1">
+      <soap12:address location="https://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://stp-devoms217:8000/Stp.TaxEngine/TaxService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Spn>host/stp-omsappdev01.STP.LOCAL</Spn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Stp.TaxEngine.Contract" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Stp.TaxEngine.Contract" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="TaxRequestDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompanyId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DivisionCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InvoiceDocumentNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrderLines" nillable="true" type="tns:ArrayOfTaxRequestLineDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaxRequestDto" nillable="true" type="tns:TaxRequestDto" />
+  <xs:complexType name="ArrayOfTaxRequestLineDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaxRequestLineDto" nillable="true" type="tns:TaxRequestLineDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaxRequestLineDto" nillable="true" type="tns:ArrayOfTaxRequestLineDto" />
+  <xs:complexType name="TaxRequestLineDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessLocationCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreditIndicator" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DiscountAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FiscalDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FreightAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="InvoiceDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ItemDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LineItemAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="MiscellaneousInfo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountCity" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountCountry" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountCounty" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountDistrict" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountSecondaryCity" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountSecondaryCounty" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountSecondaryState" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OverrideTaxAmountState" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ProductCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+      <xs:element minOccurs="0" name="ShipFromCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipFromCounty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipFromGeoCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipFromPostalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipFromState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToCounty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToGeoCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToPostalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShipToTerritory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxAmount" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaxRequestLineDto" nillable="true" type="tns:TaxRequestLineDto" />
+  <xs:complexType name="TaxResponseDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="CompletionCodeDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumberOfRecords" type="xs:int" />
+      <xs:element minOccurs="0" name="OrderLines" nillable="true" type="tns:ArrayOfTaxResponseLineDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaxResponseDto" nillable="true" type="tns:TaxResponseDto" />
+  <xs:complexType name="ArrayOfTaxResponseLineDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaxResponseLineDto" nillable="true" type="tns:TaxResponseLineDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaxResponseLineDto" nillable="true" type="tns:ArrayOfTaxResponseLineDto" />
+  <xs:complexType name="TaxResponseLineDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CalculatedCityTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedCountryTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedCountyTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedDistrictTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedSecondaryCityTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedSecondaryCountyTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedSecondaryStateTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedStateTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CalculatedTotalTaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CityCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="CityJurisdiction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CityStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CityTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CountryStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountryTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CountyCodeJurisdiction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountyCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="CountyJurisdiction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountyStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountyTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DistrictStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DistrictTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FederalCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="GeneralCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="GeneralCompletionCodeDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GeoCodeJurisdiction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="SecondaryCityCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="SecondaryCityStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryCityTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SecondaryCountyCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="SecondaryCountyStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryCountyTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SecondaryStateCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="SecondaryStateStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryStateTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="StateCompletionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="StateJurisdiction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StateStpTaxAuthorityCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StateTaxRate" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SystemDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TaxCertificateCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxCertificateCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxCertificateCounty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxCertificateState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZipCodeJurisdiction" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaxResponseLineDto" nillable="true" type="tns:TaxResponseLineDto" />
+</xs:schema>

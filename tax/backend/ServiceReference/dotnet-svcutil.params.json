@@ -1,0 +1,34 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3-preview1.20574.1",
+  "options": {
+    "inputs": [
+      "configuration.svcinfo",
+      "configuration91.svcinfo",
+      "Reference.svcmap",
+      "TaxService.disco",
+      "TaxService.wsdl",
+      "TaxService.xsd",
+      "TaxService1.xsd",
+      "TaxService2.xsd"
+    ],
+    "namespaceMappings": [
+      "*, ServiceReference"
+    ],
+    "outputFile": "Reference.cs",
+    "references": [
+      "Microsoft.OpenApi, {Microsoft.OpenApi, 1.2.3}",
+      "Swashbuckle.AspNetCore.Swagger, {Swashbuckle.AspNetCore.Swagger, 5.6.3}",
+      "Swashbuckle.AspNetCore.SwaggerGen, {Swashbuckle.AspNetCore.SwaggerGen, 5.6.3}",
+      "Swashbuckle.AspNetCore.SwaggerUI, {Swashbuckle.AspNetCore.SwaggerUI, 5.6.3}",
+      "System.Reflection.DispatchProxy, {System.Reflection.DispatchProxy, 4.5.0}",
+      "System.Security.AccessControl, {System.Security.AccessControl, 4.5.0}",
+      "System.Security.Cryptography.Xml, {System.Security.Cryptography.Xml, 4.5.0}",
+      "System.Security.Permissions, {System.Security.Permissions, 4.5.0}",
+      "System.Security.Principal.Windows, {System.Security.Principal.Windows, 4.5.0}"
+    ],
+    "sync": true,
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}
